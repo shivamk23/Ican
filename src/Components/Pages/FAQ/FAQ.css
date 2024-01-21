@@ -1,0 +1,25 @@
+.Faq_heading_div{
+    color: #b8b8b8;
+    /* background-color: #464646; */
+    background-color: #2D2D2D;
+    height: 200px;
+    font-size: 5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center !important;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-left: 5%;
+     margin: 0px;
+}
+
+@media (max-width: 767px) {
+.Faq_heading_div{
+    height: 50px;
+    align-items: center;
+    padding-top: 15px;
+}
+}
+    
+ @media (min-width: 768px) and (max-width: 1024px) {
+ }

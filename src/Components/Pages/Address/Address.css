@@ -1,0 +1,68 @@
+.add_container_fluid{
+background-color: #063A3D;
+padding: 7% 0px;
+}
+.add_content_container{
+color: #fff;
+width: 80%;
+}
+.address_top_banner{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+}
+.address_form_container{
+    background-color: #fff;
+    color: #000;
+    border-top-left-radius: 10px;
+    padding: 5% 10%;
+}
+.add_form_div{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px 0px;
+    height: 280px;
+}
+.add_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 95%;
+    margin: auto;
+}
+.add_input_field{
+    width: 100%;
+    border-radius: 5px;
+    outline: 1px solid #000;
+    border: none;
+    height: 45px;
+    padding: 0px 10px;
+}
+.address_btn{
+ margin-top: 3%;
+ margin-left: 1.5rem;
+ border-radius: 10px; 
+ font-size: 14px;
+ font-weight: 500;
+ border: none;
+ outline: none;
+ color: #fff;
+ background-color: #78D3E8;
+ padding: 5px 10px;
+ text-align: center;
+}
+.save_add_div{
+border-top: 1px solid #000;
+padding: 0px;
+margin-top: 3%;
+}

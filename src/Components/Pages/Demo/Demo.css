@@ -1,0 +1,12 @@
+.demo_text_wrapper{
+    width: 35%;
+    margin: auto;
+}
+.page_heading{
+    font-size: 45px;
+    font-weight: 500;
+}
+.page_text{
+    font-size: 20px;
+    font-weight: 400;
+}

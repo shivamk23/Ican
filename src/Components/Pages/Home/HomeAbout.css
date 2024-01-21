@@ -1,0 +1,251 @@
+.home_about_lg_container_fluid{
+  display: block;
+background-color: hwb(183 2% 76%);
+color: #fff;
+padding: 2% 0px;
+}
+.home_about_sm_container_fluid{
+  display: none;
+}
+.about_content_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 450px;
+    }
+.about_img_div{
+  display: flex;
+  justify-content: flex-start;
+}
+.about_vector3_img{
+  width: 84%;
+  
+ }
+.about_heading_div{
+  color: #25A5AB;
+  font-weight: 700;
+  font-size: 2.5vw;
+}
+.about_text_wrapper{
+width: 45%;
+}
+.stand_content_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 7% 0px;
+}
+.standfor_text_wrapper{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  width: 35%;
+}
+.icons_main_wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  grid-gap: 25px;
+  width: 45%; 
+}
+.aboutcards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #010613;
+}
+.about_card_text{
+  font-size: 14px;
+}
+.icon{
+  width: 45px;
+  height: 45px;
+}
+.perfect_content_wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  margin-top: 1.2rem;
+  padding: 5% 0px;
+}
+.perfect_text_wrapper{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  width: 65%;
+}
+.vineglass_img{
+  width: 60%;
+}
+.exclm_img{
+  width: 15px;
+  margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+  .home_about_lg_container_fluid{
+    display: none;
+  }
+  .home_about_sm_container_fluid{
+    display: block;
+  }
+  .home_patner_fluid{
+    padding: 2%;
+    /* background: linear-gradient(180deg, #EDF2FF 67.68%, rgba(48, 215, 215, 0) 98.78%); */
+  }
+.partner_heading_wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+.sm_patner_heading{
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+  .sm_patner_subheading{
+    text-transform: capitalize;
+    font-size: 8px;
+    margin-top: -10px;
+  }
+  .partner_img_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .partner_btn{
+     font-size: 12px;
+     font-weight: 600;
+     background-color: #fff;
+     color: #000;  
+     padding: 1px 8px; 
+     outline: 1px solid #000;
+  }
+  .offer_content_container{
+    padding: 5% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .offer_div{
+    padding: 20px 15px;
+    background-color: #FDECCE;
+    border-radius: 10px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 5px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  .offer_banner_div{
+    height: 135px;
+    background-color: #FDECCE;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .taste_heading{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: auto;
+  }
+  .taste_can_img_div {
+  
+  }
+    .taste_can_img{
+margin-left: -30px;
+  }
+  .insta_heading{
+    font-size: 29px;
+    font-weight: 800;
+  }
+  .insta_btn_div{
+margin: -15px auto 0px auto;
+  }
+  .insta_btn{
+    font-size: 11px;
+    font-weight: 500;
+    font-family: poppins;
+    outline: 1px solid #000000;
+    padding: 2px 15px;
+    background-color: #fff;
+    color: #000;
+    }
+}
+  /* .home_about_lg_container_fluid{
+    display: none;
+  }
+  .about_content_container{
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+ min-height: 650px;
+padding: 5% 0px;
+    }
+    .about_img_div{
+  justify-content: center;
+    }
+    .about_heading_div{
+      text-align: center;
+      color: #25A5AB;
+      font-size: 4vw;
+     }
+    .about_text_wrapper{
+    width: 95%;
+    text-align: center;
+    }
+    .vineglass_img{
+      width: 95%;
+      margin-bottom: 1rem;
+    }
+    .perfect_text_wrapper{
+      width: 95%;
+    }
+    .stand_content_container{
+   flex-direction: column;
+   justify-content: center;
+      padding: 5% 0px;
+    }
+    .standfor_text_wrapper{
+      width: 95%;
+    }
+    .icons_main_wrapper{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      grid-gap: 25px;
+      width: 95%; 
+    }
+    .aboutcards{
+  padding: 5px 0px;
+    }
+    .about_card_text{
+      margin-top: -10px;
+      margin-bottom: auto;
+      font-size: 10px;
+    }
+    .icon{
+      width: 25px;
+      height: 25px;
+    } */
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .about_vector3_img{
+      width: 80%;
+      
+     }
+    }
+
+

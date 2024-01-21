@@ -1,0 +1,33 @@
+.patner_content_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partner_banner_img{
+
+}
+.patner_heading_text_wrapper{
+    width: 45%;
+}
+.patner_heading_div{
+    color: aliceblue;
+    font-size: 3vw;
+    font-weight: 800;
+}
+.patner_text_div{
+    color: aliceblue;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .partner_banner_img{
+width: 95%;
+    }
+    .patner_heading_text_wrapper{
+        width: 100%;
+    }
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+    
+    }

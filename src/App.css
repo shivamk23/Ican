@@ -1,0 +1,56 @@
+.App{
+margin-top: 0px !important;
+padding: 0px;
+font-family: poppins;
+height: 100vh;
+background: linear-gradient(180deg, #EDF2FF 67.68%, rgba(48, 215, 215, 0) 98.78%); 
+    }
+    body
+    {
+      margin: 0;
+      padding: 0;
+    }
+.page_heading{
+font-size: 2.5vw;
+font-weight: 800;
+text-transform: uppercase;
+}
+.page_subheading{
+font-size: 18px;
+font-weight: 500;
+text-transform: uppercase;
+}
+.page_text{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .page_heading{
+        font-size: 5vw;
+        font-weight: 700;
+        }
+        .page_subheading{
+            font-size: 16px;
+            font-weight: 500;
+            }
+        .page_text{
+        font-size: 14px;
+        font-weight: 500;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .page_heading{
+            font-size: 3vw;
+            font-weight: 700;
+            }
+            .page_subheading{
+                font-size: 16px;
+                font-weight: 500;
+                }
+            .page_text{
+            font-size: 16px;
+            font-weight: 500;
+            }
+      }

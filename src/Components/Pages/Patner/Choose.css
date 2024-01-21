@@ -1,0 +1,27 @@
+.choose_container_fluid{
+    background-color: #000;
+    color: #fff;
+    margin-top: 1rem;
+}
+.choose_content_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 7% 0px;
+}
+.choose_points_wrapper1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+}
+.arrow_img{
+    margin-top: -18px;
+    margin-right: 20px;
+}
+.choose_points_text{
+    color: #27A6AD;
+}

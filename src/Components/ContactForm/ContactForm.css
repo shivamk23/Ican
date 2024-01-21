@@ -1,0 +1,106 @@
+/* styles.css */
+  
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    width: 45%;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  .exp_field_group {
+    margin: auto;
+    width: auto;
+    margin: 2rem auto 0px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff !important;
+  
+    }
+  .field_errorbox{
+    margin-right: 20px;
+ }
+  .exp_form_fields {
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 50px;
+    width: 40vw;
+    border-radius: 2px;
+   color: #fff !important;
+   background-color: transparent;
+  border: none;
+  outline: 1px solid #fff;
+  margin: auto;
+  }
+  .exp_form_fields:focus~label,
+.exp_form_fields:valid~label {
+  padding-top: 2.5px;
+  top: -3px;
+  left: 5px;
+  font-size: 12px;
+  }
+.exp_form_fields:hover{
+  color: #fff ;
+
+  background-color: none;
+ }
+.mssg_field {
+  color: #000 !important;
+  padding: 25px 14px 0px 10px;
+  min-height: 50px;
+  max-height: 70px;
+ 
+}
+.exp_form_labels {
+    margin-left: 5px;
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    font-size: 15px;
+   pointer-events: none;
+    transition: 0.2s;
+  color: #fff;
+  }
+  .submit_btndiv{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .form_submit_btn {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: 5px;
+    background-color: #27A6AD;
+    color: #fff;
+    font-size: 16px;
+    font-family: poppins;
+    padding: 10px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    width: 40vw;
+  }
+  .error {
+    color: red;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  @media (max-width: 767px) {
+    .form {
+width: 100%;
+}
+    .exp_form_fields {
+      height: 50px;
+      width: 90vw;
+    margin: auto;
+    }
+ }
+    
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+}
+  

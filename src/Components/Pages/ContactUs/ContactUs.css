@@ -1,0 +1,55 @@
+.contactus_heading_div{
+    color: #b8b8b8;
+    height: 200px;
+    font-size: 5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 800;
+    text-transform: capitalize;
+padding-left: 5%;
+margin: 0px;
+
+  }
+  .contact_content_container{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    padding: 3% 0px;
+  }
+  .form_main_wrapper{
+    display: flex;
+    justify-content: flex-start;
+  width: 100%;
+   }
+
+@media (max-width: 767px) {
+  .contactus_heading_div{
+    color: #b8b8b8;
+    height: 50px;
+    font-size: 5vw;
+    text-transform: capitalize;
+padding-left: 5%;
+padding-top: 15px;
+margin: 0px;/* background-color: #464646; */
+  }
+  .contact_content_container{
+ flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .form_main_wrapper{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   }
+  .cane_img{
+    height: 150px;
+}
+
+
+ }
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+  }

@@ -1,0 +1,34 @@
+.card{
+    width: 19rem;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #1D1D1D;
+    border-radius: 15px;
+   color: #fff;
+}
+.card-img-top{
+width: 90px;
+height: 90px;
+}
+.card-body{
+    margin: auto;
+}
+.card-heading{
+text-transform: capitalize;
+font-size: 18px;
+}
+.card-text{
+font-size: 14px;
+font-weight: 500;
+}
+@media (max-width: 767px) {
+    .card-img-top{
+        width: 45px;
+        height: 45px;
+        } 
+}

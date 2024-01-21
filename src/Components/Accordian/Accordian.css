@@ -1,0 +1,87 @@
+/* accordion */
+.wrapper {
+    height: auto;
+   }
+  
+  .accordion {
+    width: 80vw;
+    height: 100%;
+    margin-right: auto;
+    margin-left: 5%;
+  }
+  .item-header{
+    cursor: pointer;
+  }
+  
+  .item {    
+    margin-bottom: 2px;
+    padding: 5px 0px;
+    border-bottom: 1px solid #2D2D2D;
+  }
+  
+  .acc_title {
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+  width: auto;
+    color: #fff;
+   cursor: pointer;
+  }
+  
+  .content {
+    height: 25px;
+    margin-top: 1rem;
+    width: auto;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: normal;
+    letter-spacing: 0em;
+    color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s cubic-bezier(0, 1, 0, 1);
+    
+  }
+  
+  .content.show {
+    width: auto;
+    height: auto;
+    max-height: 999px;
+    transition: all 0.2s cubic-bezier(1, 0, 1, 0);
+  }
+  .accordion-icon{
+    margin-left: -1.8rem;
+    margin-right: 3%;
+  }
+  
+  @media (max-width: 767px) {
+  .accordion {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+     .accordion-icon{
+      margin-right: 5%;
+      width: 25px;
+      height: 25px;
+    }
+  .item {
+      width: 100%;
+      margin-bottom: 5px;
+     }
+    .acc_title{
+        font-size: 12.5px !important;
+        line-height: normal;
+    }
+    .content{
+        font-size: 12px;
+        margin-top: 0rem;
+       }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+}

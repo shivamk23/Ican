@@ -1,0 +1,77 @@
+.pd_container_fluid{
+    padding: 5% 0px;
+}
+.pd_content_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.product_img_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.price_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid #fff;
+    padding: 2px 10px;
+    border-radius: 10px;
+    width: 350px;
+    padding: 10px ;
+    margin-top: 1rem;
+    line-height: normal;
+}
+.pd_btn_main_div{
+    width: 100%;
+    /* outline: 1px solid #fff; */
+    border-radius: 10px;
+
+}
+.pd_btn{
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: 1px solid #FFF;
+    text-align: center;
+    padding:  5px;
+    width: 150px;
+    font-weight: 600;  
+}
+.pd_btn.selected {
+    background-color: #FFB636;
+    color: white; /* You can adjust text color as needed */
+  }
+.pd_btn:hover{
+    background-color: #FFB636;
+    outline: none;
+    }
+    .pd_addtocart_btn{
+        min-width: 100%;
+    }
+.right_most_wrapper{
+  margin-top: 1.2rem;
+
+}
+@media (max-width: 767px) {
+    .pd_content_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .ican_heading{
+        margin-top: 2rem;
+    }
+    .right_most_wrapper{
+        margin-top: 0rem;
+      
+      }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+    
+      }

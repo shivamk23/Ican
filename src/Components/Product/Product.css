@@ -1,0 +1,135 @@
+.product_container_fluid{
+    padding: 5% 0px;
+    background-color: #042e30;
+    margin-top: 0px;
+}
+.product_content_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product_img_wrapper{
+    padding: 3% 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px #888888;
+}
+.product_right_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+ }
+ .btn_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+ }
+.product_btn{
+ border-radius: 10px;
+ background-color: transparent;
+ color: #fff;
+ border: none;
+ outline: 1px solid #FFB636;
+ text-align: center;
+ padding:  5px;
+ width: 180px;
+ font-weight: 600;
+}
+.product_btn:hover{
+background-color: #FFB636;
+outline: none;
+}
+.increment-decrement-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .span_btn{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+.amazon_main_div{
+    width: 100%;
+margin-top: 2rem;
+color: #78D4E8;
+}
+.amazon_outline_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    padding: 2% 3%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+.social_icons_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.social_icons{
+    width: 50px;
+    height: 50px;
+}
+.view_detal_btn_div{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+}
+.product_btn.selected {
+    background-color: #FFB636;
+    color: white; /* You can adjust text color as needed */
+  }
+.underline{
+    height: .5px;
+    width: 45px;
+  background-color: #6A6A6A;
+  margin: 0px 5px 0px 5px;
+}
+.rating_div{
+    background-color: #328244;
+    color: #fff;
+    font-weight: 700;
+    padding: 2px 20px;
+    border-radius: 30px;
+}
+
+@media (max-width: 767px) {
+    .product_content_container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding: 5% 0px;
+        gap: 2rem;
+    }
+    .product_img_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        height: 100%;
+    }
+    .product_img{
+ width: 65%;
+ margin: auto;
+   }
+    .product_btn{
+        width: 120px;
+        padding: 2px;
+    }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+    .product_img{
+        width: 75%;
+    }
+      }

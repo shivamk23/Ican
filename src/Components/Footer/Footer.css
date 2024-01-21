@@ -1,0 +1,121 @@
+.footer_container_fluid_lg{
+    display: flex;
+    background-color: #042e30;
+    color:#fff;
+    padding: 5% 0px;
+}
+.footer_container_fluid_sm{
+display: none;
+}
+.footer_content_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+   }
+
+.footer_wrapper1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+}
+.footer_wrapper2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.footer_links{
+    text-transform: capitalize;
+ text-decoration: none;
+ color: #fff;
+
+}
+
+
+@media (max-width: 767px) {
+.footer_container_fluid_lg{
+display: none;
+}
+.footer_container_fluid_sm{
+    display: block;
+    color:#fff;
+    padding: 5% 0px;
+    /* position: absolute;
+width: 2107px;
+height: 1151px;
+left: 1149px;
+top: 20px; */
+
+background: linear-gradient(180deg, #EDF2FF 67.68%, rgba(48, 215, 215, 0) 98.78%);
+/* transform: rotate(90deg); */
+}
+.footer_content_container_sm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.footer_connect_div{
+    padding: 0px 10px;
+    width: 100%;
+    background-color: #000;
+    height: 50px;
+}
+.mb_footer_links_wrapper{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer_social_icon_wrapper{
+    margin-top: 25px;
+    color: #000 !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    font-size: 25px;
+}
+.footer_logo_div{
+    margin-top: 20px;
+}
+/* .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown button {
+    color: white;
+    background-color: none !important;
+    border: none;
+    cursor: pointer;
+  }
+  .drop_icon{
+    height: 50px;
+    width: 50px;
+ background-color: #f1f1f1;
+  }
+  .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    left: 0; 
+    margin-left: -115px;
+    z-index: 1;
+  }
+  
+  .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f1f1f1;
+  } */
+  
+
+}

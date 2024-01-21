@@ -1,0 +1,110 @@
+.aboutus_lg_containerfluid{
+  display: block;
+}
+.aboutus_sm_containerfluid{
+  display: none;
+}
+.benefits_container{
+    padding: 3% 5% ;
+}
+.col_left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.col_right{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    align-items: flex-start;
+}
+.aboutus_content_container{
+  padding: 3% 0px;
+  color: #FFFFFF;
+}
+.benefits_heading_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.benefits_flex_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+.benifits_flex_div{
+    width: 20%;
+    text-align: left;
+}
+.story_img{
+  width: 100%;
+}
+.vision_img{
+  width: 100%;
+}
+.ourStory_text_wrapper{
+  width: 88%;
+ 
+}
+.vision_text_wrapper{
+  width: 85%;
+}
+.our_story_text{
+ font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .aboutus_sm_containerfluid{
+    display: block;
+  }
+  .aboutus_lg_containerfluid{
+    display: none;
+  }
+  .benefits_sm_text_wrapper{
+max-width: 60% !important;
+
+  }
+  .sm_story_heading_wrapper{
+    width: 50%;
+    margin-left: auto;
+  }
+  .sm_story_heading{
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .img1{
+    height: 50%;
+    margin-top: auto;
+  }
+    .benifts_sm_heading{
+    text-transform: uppercase;
+    font-size: 16.5px;
+    font-weight: 700;
+  }
+  .benifts_sm_text{
+    font-size: 11px;
+   /* color: rgba(0, 0, 0, 0.40); */
+  }
+  .buynow_btn{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 1px 15px;
+    background-color: #FFFFFF;
+    color: #000;
+    outline: 0.5px solid #000;
+  }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+.imgs_wrapper{
+  display: flex;
+  justify-content: flex-end;
+
+}
+}
